@@ -40,8 +40,8 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
     website: 'https://joseantonio002.github.io',
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
+    title: 'José Antonio',
+    subtitle: 'Blog and portfolio',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -51,10 +51,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Home',
             href: '/'
-        },
-        {
-            text: 'Projects',
-            href: '/projects'
         },
         {
             text: 'Blog',
@@ -85,21 +81,17 @@ const siteConfig: SiteConfig = {
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'LinkedIn',
+            href: 'www.linkedin.com/in/josé-antonio-antúnez-b1460a30a'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'Github',
+            href: 'https://github.com/joseantonio002'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Hey! This is my web cave — come on in.',
+        text: "Hi! I'm José, a Computer Engineering graduate with a passion for Data Science and Artificial Intelligence.\n\nI'm currently working remotely in the Big Data department at TITSA, where I’ve been gaining hands-on experience in data engineering and analytics.\n\n🛠 Tech stack & skills:\n- Programming in Python, C++, and SQL\n- Data visualization with Power BI\n- Version control using Git & GitHub\n- Basics of HTML, CSS, and JavaScript\n\nI'm also a self-learner, constantly exploring topics in machine learning, AI, and data science. My next step? Pursuing a Master’s in Data Science to deepen my knowledge and build a career in AI.\n\n👉 Want to know more about my background and journey?\nRead my story",
         image: {
             src: '/hero.jpeg',
             alt: 'A person sitting at a desk in front of a computer'
@@ -116,8 +108,7 @@ const siteConfig: SiteConfig = {
         text: 'One update per week. All the latest posts directly in your inbox.',
         formUrl: '#'
     },
-    postsPerPage: 8,
-    projectsPerPage: 8
+    postsPerPage: 8
 };
 
 export default siteConfig;
