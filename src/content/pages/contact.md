@@ -8,7 +8,10 @@ seo:
 Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
 
 _Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+[joseantunezpul@gmail.com](mailto:joseantunezpul@gmail.com)
 
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+_LinkedIn:_
+[LinkedIn](https://www.linkedin.com/in/jos%C3%A9-antonio-ant%C3%BAnez-b1460a30a/).
+
+_Github:_
+[Github](https://github.com/joseantonio002)
