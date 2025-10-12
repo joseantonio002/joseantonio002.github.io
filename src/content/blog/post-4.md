@@ -85,5 +85,5 @@ The most logical improvement would be to migrate the entire pipeline to the clou
 
 Staying in the cloud domain, another major enhancement would be to host the dashboard on a web server or cloud platform instead of GitHub Pages. Currently, the page loads all the data at once, which can make it laggy when opening or changing filters. Serving it from a backend would allow querying and loading only the necessary data, resulting in a much smoother experience.
 
-Lastly, the dashboard design could be more polished and professional. It works and serves its purpose, but aesthetics aren’t really my focus like I said before.
+Lastly, the dashboard design could be more polished and professional. It works and serves its purpose, but aesthetics aren’t really my focus like I said before. However I would like to make it more responsive so it can be seen in mobile. Right now it only shows properly on pc.
 
