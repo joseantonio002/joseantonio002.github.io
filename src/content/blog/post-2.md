@@ -3,9 +3,26 @@ title: Experiences From My First Job
 excerpt: I've just finished my first real job, and I wanted to make a post explaining what I've learned from it.
 publishDate: 'June 02 2025'
 tags:
-  - Learning Journey
-  - Early career
+  - Blog Post
 ---
+
+## TL;DR
+
+During my time at TITSA (a public transport company), I learned to:
+
+- When starting a project, don't focus too much on the theory and start hands-on with a prototype
+- If you don't understand the requirements of a task, asking can save you hours of useless work
+- How to work effectively within a team of programmers
+
+And gained technical experience on:
+
+- Data processing with Python, Pandas and SQL
+- Creating machine learning/deep learning models (predicting passengers, cluster workshop inventory...)
+- Automatization scripts with Python, like RPA's
+- Visualization with PowerBI
+- Data Analysis
+
+## Intro
 
 Last week I finished my first job in the Big Data department at TITSA (Transportes Interurbanos de Tenerife), and I wanted to make a post to reflect on the past 10 months, to explain what I’ve learned from the experience, both the positive and the negative.
 

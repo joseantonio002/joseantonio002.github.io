@@ -34,7 +34,7 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     website: 'https://joseantonio002.github.io',
     title: 'José Antonio',
-    subtitle: 'Blog and portfolio',
+    subtitle: 'Aspiring Data Engineer/Data Scientist',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -46,7 +46,7 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Blog',
+            text: 'Blog & Portfolio',
             href: '/blog'
         },
         {
@@ -72,8 +72,12 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: '',
-        text: "Hi! I'm José, a Computer Engineering graduate with a passion for Data Science and Artificial Intelligence.\n\nI have worked remotely in the Big Data department at TITSA, where I’ve gained hands-on experience in data engineering and analytics.\n\n🛠 Tech stack & skills:\n- Programming in Python, C++, SQL, C# \n- Data visualization with Power BI\n- Version control using Git & GitHub\n- Basics of HTML, CSS, and JavaScript\n- Creating apps with Power Apps and Power Automate\n\nI'm also a self-learner, constantly exploring topics in machine learning, AI, and data science. Feel free to check out my [Github](https://github.com/joseantonio002).\n\n👉 Want to know more about this blog and my background?\nRead my [first post](https://joseantonio002.github.io/blog/post-1/), where I explain everything",
+        text: "Hi! I'm José, a Computer Engineering graduate with a passion for Data Engineering and Data Science.\n\nI have worked remotely in the Big Data department at TITSA, where I’ve gained hands-on experience working with data.\n\n🛠 Tech stack & skills:\n- Programming languages: Python, C++, C# \n- Data manipulation and storage: SQL, Pandas, DuckDB\n- Machine Learning/Deep learning models with PyTorch, Xgboost, scikit-learn\n- Visualizing data with Matplotlib, Seaborn, PowerBI\n- Version control and containerization with Git, Github, Docker\n- Orchestration with Airflow\n\n👉 If you want to see my portfolio projects click [here](tags/project) or in the button \"See my projects\".\nIf you want to know more about my experience, read my [first post](https://joseantonio002.github.io/blog/post-1/), where I explain everything\n\nI'm constantly learning to become the best engineer I can be. Feel free to check out my [Github](https://github.com/joseantonio002).",
         actions: [
+            {
+                text: 'See my projects',
+                href: 'tags/project'
+            },
             {
                 text: 'Get in Touch',
                 href: '/contact'

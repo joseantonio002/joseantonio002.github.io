@@ -3,10 +3,11 @@ title: Review Of "Why Machines Learn" by Anil Ananthaswamy
 excerpt: My thoughts after reading "Why Machines Learn", a book about the core concepts of ML and deep neural networks.
 publishDate: 'June 30 2025'
 tags:
-  - Learning Journey
-  - Early career
   - Review
+  - Data Science
 ---
+
+## Intro
 
 "Why Machines Learn: The Elegant Math Behind Modern AI" is a book by Anil Ananthaswamy that covers the fundamentals of traditional machine learning algorithms and deep learning. It combines mathematical explanations with historical context, and the chapters of the book are (more or less) written in chronological order, which allows to appreciate the evolution of machine learning throughout the chapters.
 
