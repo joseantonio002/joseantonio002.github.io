@@ -8,6 +8,8 @@ tags:
   - Data Science
 ---
 
+[Dashboard](https://joseantonio002.github.io/air_transport_statistics_Canary_Islands/)
+
 ## TL;DR
 
 This project is an automated data pipeline that collects, processes, and visualizes air transport statistics from the Canary Islands, updating itself monthly.
