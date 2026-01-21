@@ -26,6 +26,23 @@ Throughout the project, I practiced:
 
 ![diagram](/air_transport_pipeline_diagram.png)
 
+## Update 21/01/2026
+
+I originally published this post in October 2025. Looking back at the project with the knowledge I have now, I realize that I made several mistakes:
+
+* **This is not a data lakehouse, it’s a data lake.**
+  At the time, I thought that simply planning the table structure in advance would qualify the project as a lakehouse. After experimenting with Delta Lake in an assignment from the master’s program I’m currently studying, I realized that this is not how data lakehouses work. A data lakehouse requires a tool that provides a transactional layer and data warehouse–like features such as ACID transactions, time travel, and schema enforcement and evolution. This project does not have that—it’s just a data lake.
+
+* **The data modeling is incorrect.**
+  Fact tables should only contain keys and measures. However, in my fact tables I store a date column (`Month`), which breaks the rules of multidimensional modeling. To be correct, I should have added a Time dimension and referenced it via a key. It would also have been a good idea to add surrogate keys to the fact tables.
+
+* **My assessment of pandas was too optimistic.**
+  Back in October, I wrote: *“Honestly, if the project is more data engineer oriented (handling larger datasets, joins, or aggregations), DuckDB might be a better choice than pandas.”*
+  Now I know that pandas is a **terrible** option for handling large datasets, mainly because it is slow and requires the entire DataFrame to fit in memory. For this kind of use case, tools like Spark are far more appropriate. In fact, I could have used DuckDB alone for the entire project.
+
+* **Airflow was massive overkill.**
+  I already mentioned in october that using Airflow for this project was unnecessary and that simple cron jobs would have been a better choice. Turns out I was absolutely right. One day Airflow just stopped working, and I don’t have the patience to reinstall it and get everything running again. Airflow itself isn’t conceptually hard—the core ideas (DAGs, executors, etc.) are easy to understand. The real problem is getting it to run reliably.
+
 ## Project Overview
 
 This project implements an automated data pipeline that collects, processes, and visualizes air transport statistics from the Canary Islands.
@@ -61,7 +78,7 @@ TrafficPerTerritory (aggregated by island)
 
 TrafficPerAirport (aggregated by origin and destination airports)
 
-Initially, I planned to upload these tables into DuckDB, but after experimenting I realized I could query the CSV files directly using DuckDB’s SQL interface — adopting a data lakehouse approach (structured files in directories, queried as if they were database tables).
+Initially, I planned to upload these tables into DuckDB, but after experimenting I realized I could query the CSV files directly using DuckDB’s SQL interface — adopting a data lakehouse approach (structured files in directories, queried as if they were database tables). *This is wrong, see correction*
 
 This allowed flexibility and avoided unnecessary data duplication. Also I want to add how amazing DuckDB really is, super simple, super fast, you can use it in your python code and process data with SQL (wich sometimes it's better than using pandas), as a regular database... Honestly, if the project is more data engineer oriented (handling larger datasets, joins, or aggregations), DuckDB might be a better choice than pandas.
 
