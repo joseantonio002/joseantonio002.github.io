@@ -38,7 +38,7 @@ I originally published this post in October 2025. Looking back at the project wi
 
 * **My assessment of pandas was too optimistic.**
   Back in October, I wrote: *“Honestly, if the project is more data engineer oriented (handling larger datasets, joins, or aggregations), DuckDB might be a better choice than pandas.”*
-  Now I know that pandas is a **terrible** option for handling large datasets, mainly because it is slow and requires the entire DataFrame to fit in memory. For this kind of use case, tools like Spark are far more appropriate. In fact, I could have used DuckDB alone for the entire project.
+  Now I know that pandas is not that good for handling large datasets, mainly because it is slow and requires the entire DataFrame to fit in memory. For this kind of use case, tools like Polars, DuckDB or Spark for larger datasets are far more appropriate. In fact, I could have used DuckDB alone for the entire project.
 
 * **Airflow was massive overkill.**
   I already mentioned in october that using Airflow for this project was unnecessary and that simple cron jobs would have been a better choice. Turns out I was absolutely right. One day Airflow just stopped working, and I don’t have the patience to reinstall it and get everything running again. Airflow itself isn’t conceptually hard—the core ideas (DAGs, executors, etc.) are easy to understand. The real problem is getting it to run reliably.
