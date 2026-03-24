@@ -1,6 +1,6 @@
 ---
 title: Building an FGC Transit Realtime Dashboard using GTFS data
-excerpt: a
+excerpt: A lightweigh dashboard for FGC that maps vehicles in (almost) realtime, shows upcoming arrivals per stop, and tracks historical delays — built with a polling collector + SQLite + FastAPI, and demoed on GitHub Pages via a prerecorded snapshot loop.
 publishDate: 'March 23 2026'
 tags:
   - Data Engineer
