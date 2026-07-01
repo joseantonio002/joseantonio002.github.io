@@ -72,7 +72,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: '',
-        text: "Hi! I'm José, a Computer Engineering graduate with a passion for Data Engineering and Data Science.\n\nI have worked remotely in the Big Data department at TITSA, where I’ve gained hands-on experience working with data.\n\n🛠 Tech stack & skills:\n- Programming languages: Python, C++, C# \n- Data manipulation and storage: SQL, Pandas, DuckDB\n- Machine Learning/Deep learning models with PyTorch, Xgboost, scikit-learn\n- Visualizing data with Matplotlib, Seaborn, PowerBI\n- Version control and containerization with Git, Github, Docker\n- Orchestration with Airflow\n\n👉 If you want to see my portfolio projects click [here](tags/project) or in the button \"See my projects\".\nIf you want to know more about my experience, read my [first post](https://joseantonio002.github.io/blog/post-1/), where I explain everything\n\nI'm constantly learning to become the best engineer I can be. Feel free to check out my [Github](https://github.com/joseantonio002).",
+        text: "Computer Engineering graduate with a passion for Data Engineering and Data Science.\n\nI have worked remotely in the Big Data department at TITSA, where I’ve gained hands-on experience working with data.\n\n👉 If you want to see my portfolio projects click [here](tags/project) or in the button \"See my projects\".\nIf you want to know more about my experience, read my [first post](https://joseantonio002.github.io/blog/post-1/), where I explain everything\n\nI'm constantly learning to become the best engineer I can be. Feel free to check out my [Github](https://github.com/joseantonio002).",
         actions: [
             {
                 text: 'See my projects',
