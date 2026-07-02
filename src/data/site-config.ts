@@ -72,7 +72,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: '',
-        text: "Multi-disciplinary engineer, I love understanding things at a deep level. I usually work with data or build end-to-end applications.\n\nI have worked at TITSA as a Data Scientist and recently completed a masters in Data Engineering.",
+        text: "Multi-disciplinary engineer, I love understanding things at a deep level. I usually work with data or build end-to-end applications.\n\nI have worked at TITSA as a Data Scientist and recently completed a masters in Data Engineering. Some of the projects I have done on my own are an OSINT platform to compile and visualize data from heterogeneous sources, a desktop app to find historical and current chart patterns and a dashboard for air transport statistic to the canary islands",
         actions: [
             {
                 text: 'See my projects',
