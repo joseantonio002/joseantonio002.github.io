@@ -72,7 +72,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: '',
-        text: "Computer Engineering graduate with a passion for Data Engineering and Data Science.\n\nI have worked remotely in the Big Data department at TITSA, where I’ve gained hands-on experience working with data.\n\n👉 If you want to see my portfolio projects click [here](tags/project) or in the button \"See my projects\".\nIf you want to know more about my experience, read my [first post](https://joseantonio002.github.io/blog/post-1/), where I explain everything\n\nI'm constantly learning to become the best engineer I can be. Feel free to check out my [Github](https://github.com/joseantonio002).",
+        text: "Multi-disciplinary engineer, I love understanding things at a deep level. I usually work with data or build end-to-end applications.\n\nI have worked at TITSA as a Data Scientist and recently completed a masters in Data Engineering.",
         actions: [
             {
                 text: 'See my projects',
