@@ -1,0 +1,11 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+
+type Props = HTMLAttributes<'svg'>;
+
+const { class: className, ...props } = Astro.props;
+---
+
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class={className} {...props}>
+    <path d="M18.901 2H21.96l-6.682 7.636L23.14 22h-6.157l-4.821-7.53L5.572 22H2.511l7.146-8.168L2.14 2h6.313l4.357 6.932L18.901 2Zm-1.073 18.168h1.695L7.537 3.736H5.718l12.11 16.432Z"></path>
+</svg>
