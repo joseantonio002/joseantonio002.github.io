@@ -72,10 +72,10 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: '',
-        text: "I have experience working with data and building end to end applications. Some of the projects I have built on my own include an OSINT platform to compile and visualize data from heterogeneous sources, a dashboard for air transport statistics in the Canary Islands and a desktop app to find historical and current chart patterns.\n\nI have worked at TITSA as a Data Scientist and recently completed a master’s degree in Data Engineering, where I gained experience in large-scale data processing, database management, and related data engineering/data science practices. Currently incorporating agentic engineering into my workflow by building a project (coming soon)",
+        text: "I have experience working with data and building end to end applications. Some of the projects I have built on my own include an [OSINT platform to compile and visualize data from heterogeneous sources](https://github.com/joseantonio002/Open-Media-Intelligence-Platform), a [dashboard for air transport statistics in the Canary Islands](https://github.com/joseantonio002/air_transport_statistics_Canary_Islands) and a [desktop app to find historical and current chart patterns](https://github.com/joseantonio002/PerseumAI).\n\nI have worked at TITSA as a Data Scientist and recently completed a master’s degree in Data Engineering, where I gained experience in [large-scale data processing](https://github.com/joseantonio002/data-lab/tree/main/large_scale_data_processing), [database management](https://github.com/joseantonio002/data-lab/tree/main/large_scale_databases), and [related data engineering/data science practices](https://github.com/joseantonio002/data-lab). Currently incorporating agentic engineering into my workflow by building a project (coming soon)",
         actions: [
             {
-                text: 'See my projects',
+                text: 'See all my projects',
                 href: 'tags/project'
             },
             {
