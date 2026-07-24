@@ -72,7 +72,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: '',
-        text: "I built the Open Media Intelligence Platform, a near-real-time data platform that turns heterogeneous sources, such as TV and radio broadcasts, into structured, searchable intelligence through automated ingestion and processing pipelines.\n\n I also built a monthly batch pipeline for air transport statistics in the Canary Islands and a real-time pipeline and dashboard for monitoring FGC train operations. Before that, I was a data scientist at TITSA.",
+        text: "I built the Open Media Intelligence Platform, a near-real-time data platform that turns data from heterogeneous sources, such as TV and radio broadcasts, into structured, searchable information.\n\n I also built a monthly batch pipeline for air transport statistics in the Canary Islands and a real-time pipeline and dashboard for monitoring FGC train operations. Before that, I was a data scientist at TITSA.",
         actions: [
             {
                 text: 'See all my projects',
