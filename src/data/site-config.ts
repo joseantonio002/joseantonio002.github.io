@@ -72,7 +72,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: '',
-        text: "I have experience working with data and building end to end applications. Some of the projects I have built on my own include an [**OSINT platform**](https://github.com/joseantonio002/Open-Media-Intelligence-Platform), an [**ETL Pipeline and dashboard**](https://github.com/joseantonio002/air_transport_statistics_Canary_Islands) and [**an app**](https://github.com/joseantonio002/PerseumAI) to find historical and current chart patterns.\n\nI have worked at [**TITSA**](https://en.wikipedia.org/wiki/TITSA) as a Data Scientist and recently completed a master’s degree in Data Engineering, where I gained experience in [**large-scale data processing**](https://github.com/joseantonio002/data-lab/tree/main/large_scale_data_processing), [**database management**](https://github.com/joseantonio002/data-lab/tree/main/large_scale_databases), and [**more**](https://github.com/joseantonio002/data-lab).",
+        text: "I built the Open Media Intelligence Platform, a modular near-real-time data platform that turns live TV, radio, and web sources into structured, searchable intelligence through automated ingestion, transcription, enrichment, and analytics pipelines. I also built a monthly batch pipeline for Canary Islands air transport statistics and a real-time pipeline and dashboard for FGC trains.\n\n Before that I was a Data Scientist at TITSA.",
         actions: [
             {
                 text: 'See all my projects',
