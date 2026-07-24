@@ -72,7 +72,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: '',
-        text: "I built the [Open Media Intelligence Platform](https://github.com/joseantonio002/Open-Media-Intelligence-Platform), a near-real-time data platform that turns data from heterogeneous sources, such as TV and radio broadcasts, into structured, searchable information.\n\n I also built a monthly [batch pipeline](https://github.com/joseantonio002/air_transport_statistics_Canary_Islands) for air transport statistics in the Canary Islands and a [real-time](https://github.com/joseantonio002/FGC-transit-realtime-dashboard) pipeline and dashboard for monitoring FGC trains. Before that, I was a data scientist at [TITSA](https://www.titsa.com/index.php/en/).",
+        text: "I built the [Open Media Intelligence Platform](https://github.com/joseantonio002/Open-Media-Intelligence-Platform), a near-real-time data platform that turns data from heterogeneous sources, such as TV and radio broadcasts, into structured, searchable information.\n\n I also built a monthly [batch pipeline](https://github.com/joseantonio002/air_transport_statistics_Canary_Islands) for air transport statistics in the Canary Islands and a [real-time](https://github.com/joseantonio002/FGC-transit-realtime-dashboard) pipeline for monitoring FGC trains. Before that, I was a data scientist at [TITSA](https://www.titsa.com/index.php/en/).",
         actions: [
             {
                 text: 'See all my projects',
